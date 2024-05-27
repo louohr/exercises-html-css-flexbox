@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background: #eee;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 1rem;
+}
+
+article {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+article.reverse {
+    flex-direction: row-reverse;
+}
+
+article section {
+    padding: 1rem;
+
+    text-align: center;
+    color: white;
+}
+
+article .box-1 {
+    background-color: #640000;
+}
+article .box-2 {
+    background-color: #641400;
+}
+article .box-3 {
+    background-color: #642800;
+}
+article .box-4 {
+    background-color: #645000;
+}
+article .box-5 {
+    background-color: #646400;
+}
+article .box-6 {
+    background-color: #647800;
+}
+article .box-7 {
+    background-color: #648d00;
+}
+article .box-8 {
+    background-color: #64a000;
+}
+article .box-9 {
+    background-color: #64b301;
+}
