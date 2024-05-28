@@ -9,8 +9,8 @@ body {
 }
 
 .product-card {
-    width: 400px;
-    height: 400px;
+    width: 1000px;
+    height: 500px;
     display: flex;
     box-shadow: 0 0 2rem rgba(0,0,0, .1);
 }
@@ -20,10 +20,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .product-image {
     background: #fecf2f;
+    padding: 30px;
 }
 
 .product-image img {
@@ -34,13 +36,14 @@ body {
 .product-information {
     background: #fff;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
     box-sizing: border-box;
     text-align: center;
 }
 
 .title {
     margin-bottom: 10px;
+    font-size: 2rem;
 }
 
 .product-description {
@@ -52,4 +55,11 @@ body {
 
 .price {
     margin-top: 10px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 1.2em;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    border-radius: 5px;
 }
