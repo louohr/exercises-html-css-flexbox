@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+article.card {
+    background-color: white;
+    width: 280px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 10px 20px 0px rgba (0, 0, 0, 0.15);
+    color: gray;
+}
+
+.card .close {
+    width: 1rem;
+    margin: 1rem 1rem auto auto;
+    opacity: .4s;
+}
+
+.card img.profile {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card h1 {
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.card p {
+    margin: 0;
+    padding: 0;
+}
+.card a {
+    text-decoration: none;
+    width: calc(100% - 3rem);
+    padding: 1rem;
+    box-sizing: border-box;
+    background: black;
+    color: #eee;
+    text-align: center;
+    margin: auto;
+    border-radius: 999rem;
+    font-size: 1rem;
+}
+
+.card a:hover {
+    background: rgba(0,0,0,1);
+}
