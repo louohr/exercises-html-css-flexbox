@@ -1,3 +1,9 @@
+body {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -6,9 +12,21 @@
     height: 100vh;
 }
 
-.flex-item {
-    width: 500px;
-    height: 500px;
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 520px;
+    background-color: white;
+    box-shadow: 0 0 3rem rgba(0,0,0,.1);
+    position: relative;
+}
+
+.red-circle {
+    width: 240px;
+    height: 240px;
     background-color: red;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
+    position: absolute;
 }
