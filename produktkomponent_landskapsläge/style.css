@@ -42,6 +42,10 @@ body {
     box-sizing: border-box;
 }
 
+.title {
+    margin-right: 119px;
+}
+
 h1 {
     font-size: 2rem;
     margin: 2rem 0 0 0;
